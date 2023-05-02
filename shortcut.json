@@ -1,0 +1,45 @@
+[
+    {
+      "key": "cmd+1",
+      "command": "references-view.findReferences",
+      "when": "editorHasReferenceProvider"
+    },
+    {
+      "key": "cmd+shift+i",
+      "command": "editor.action.jumpToBracket",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "cmd+u",
+      "command": "editor.action.revealDefinition",
+      "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    { "key": "cmd+h", "command": "cursorLeft", "when": "textInputFocus" },
+    { "key": "cmd+l", "command": "cursorRight", "when": "textInputFocus" },
+    {
+      "key": "cmd+shift+l",
+      "command": "cursorRightSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "cmd+shift+h",
+      "command": "cursorLeftSelect",
+      "when": "textInputFocus"
+    },
+    {
+      "key": "cmd+shift+k",
+      "command": "cursorUpSelect",
+      "when": "editorTextFocus"
+    },
+    {
+      "key": "cmd+shift+j",
+      "command": "cursorDownSelect",
+      "when": "editorTextFocus"
+    },
+    { "key": "cmd+k", "command": "cursorUp", "when": "textInputFocus" },
+    { "key": "cmd+j", "command": "cursorDown", "when": "textInputFocus" },
+    { "key": "alt+h", "command": "cursorWordLeft", "when": "textInputFocus" },
+    { "key": "alt+l", "command": "cursorWordRight", "when": "textInputFocus" },
+    { "key": "cmd+r", "command": "workbench.action.closeAllEditors" }
+  ]
+  
